@@ -53,7 +53,7 @@ static JNINativeMethod gJpegTranscoderMethods[] = {
 
 bool registerJpegTranscoderMethods(JNIEnv* env) {
   auto jpegTranscoderClass = env->FindClass(
-      "imagecompress/nativecode/JpegTranscoder");
+      "io/github/robinvanyang/imagecompress/nativecode/JpegTranscoder");
   if (jpegTranscoderClass == nullptr) {
     LOGE("could not find JpegTranscoder class");
     return false;

@@ -210,7 +210,7 @@ static JNINativeMethod gCompressorNativeMethods[] = {
 jint registerCompressorNativeMethods(JNIEnv* env) {
   jclass compressor_class = (*env)->FindClass(
     env,
-    "imagecompress/Compressor");
+    "io/github/robinvanyang/imagecompress/Compressor");
 
   if(!compressor_class) {
     return JNI_ERR;

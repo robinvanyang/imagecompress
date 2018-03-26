@@ -347,7 +347,7 @@ void transformJpeg(
   JpegMemoryDestination mem_destination;
   JpegMemorySource mem_source;
 
-  if (sould_scale) {
+  //if (sould_scale) {
   if (should_scale || (quality > 0 && quality < 100)) {
     resizeJpeg(
         env,
